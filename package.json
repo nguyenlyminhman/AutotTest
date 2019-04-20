@@ -1,0 +1,22 @@
+{
+  "name": "autottest",
+  "version": "1.0.0",
+  "description": "Using selenium and  web-driver-io to test api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nguyenlyminhman/AutotTest.git"
+  },
+  "author": "Nguyen Ly Minh Man",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nguyenlyminhman/AutotTest/issues"
+  },
+  "homepage": "https://github.com/nguyenlyminhman/AutotTest#readme",
+  "devDependencies": {
+    "express": "^4.16.4"
+  }
+}
