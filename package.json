@@ -4,7 +4,7 @@
   "description": "Using selenium and  web-driver-io to test api",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "wdio"
   },
   "repository": {
     "type": "git",
@@ -17,6 +17,11 @@
   },
   "homepage": "https://github.com/nguyenlyminhman/AutotTest#readme",
   "devDependencies": {
-    "express": "^4.16.4"
+    "@types/node": "^11.13.6",
+    "@types/webdriverio": "^5.0.0",
+    "express": "^4.16.4",
+    "wdio-mocha-framework": "^0.6.4",
+    "wdio-selenium-standalone-service": "0.0.12",
+    "webdriverio": "^5.7.15"
   }
 }
