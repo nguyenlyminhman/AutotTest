@@ -16,7 +16,7 @@ describe('Test Command', ()=>{
     });
 
     it('Test: select by value', ()=>{
-        $(DROPDOWN_MENU).selectByAttribute('value', '2')
+        $(DROPDOWN_MENU).selectByAttribute('value', '2');
         browser.pause(2000);
     });
 });
