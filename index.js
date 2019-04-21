@@ -7,5 +7,7 @@ discribe('Test suite A for login function',()=>{
 
     it('Test case two, Fail', ()=>{
         //Coding here
+
+        //node ./node_modules/mocha/bin/mocha
     });
 })

@@ -4,7 +4,7 @@
   "description": "Using selenium and  web-driver-io to test api",
   "main": "index.js",
   "scripts": {
-      "test": "node ./node_modules/mocha/bin/mocha"
+    "test": "wdio"
   },
   "repository": {
     "type": "git",
@@ -21,9 +21,10 @@
     "@types/webdriverio": "^5.0.0",
     "express": "^4.16.4",
     "mocha": "^6.1.4",
+    "selenium-webdriver": "^4.0.0-alpha.1",
     "wdio-mocha-framework": "^0.6.4",
     "wdio-selenium-standalone-service": "0.0.12",
-    "webdriverio": "^5.7.15"
+    "webdriverio": "^4.10.2"
   },
   "dependencies": {
     "@wdio/cli": "^5.7.15"
