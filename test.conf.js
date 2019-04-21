@@ -1,6 +1,6 @@
 exports.config = {
     specs:[
-        './test/testdemo.js'
+        './test/LoginForm.js'
     ],
 
     host:'localhost',
