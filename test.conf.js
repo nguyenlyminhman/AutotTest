@@ -1,6 +1,6 @@
 exports.config = {
     specs:[
-        './test/SubmitForm.js'
+        './test/DropDown.js'
     ],
 
     host:'localhost',
