@@ -1,6 +1,6 @@
 exports.config = {
     specs:[
-        './test/DropDown.js'
+        './test/Alert.js'
     ],
 
     host:'localhost',
