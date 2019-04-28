@@ -1,6 +1,6 @@
 exports.config = {
     specs:[
-        './test/Alert.js'
+        './test/Attribute.js'
     ],
 
     host:'localhost',
