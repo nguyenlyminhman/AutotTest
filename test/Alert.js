@@ -2,7 +2,7 @@ describe('Alert Command', () => {
     const JS_ALERT = '[onclick="jsConfirm()"]'
     it('Alert Ok', () => {
         browser.url('https://the-internet.herokuapp.com/javascript_alerts');
-        browser.waitForVisible(JS_ALERT, 5000);
+        browser.waitForVisible(JS_ALERT, 10000);
         $(JS_ALERT).click();
         browser.alertAccept();
         browser.pause(3000);
