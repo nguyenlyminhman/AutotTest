@@ -1,6 +1,6 @@
 exports.config = {
     specs:[
-        './test/TitleUrl.js'
+        './test/Upload.js'
     ],
 
     host:'localhost',
