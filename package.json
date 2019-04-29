@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/nguyenlyminhman/AutotTest#readme",
   "devDependencies": {
-    "@types/node": "^11.13.6",
+    "@types/node": "^11.13.8",
     "@types/webdriverio": "^5.0.0",
     "express": "^4.16.4",
     "mocha": "^6.1.4",

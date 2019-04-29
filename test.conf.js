@@ -1,6 +1,6 @@
 exports.config = {
     specs:[
-        './test/Attribute.js'
+        './test/Color.js'
     ],
 
     host:'localhost',
