@@ -1,6 +1,6 @@
 exports.config = {
     specs:[
-        './test/ScreenShot.js'
+        './test/Tab.js'
     ],
 
     host:'localhost',
