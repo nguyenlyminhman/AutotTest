@@ -1,21 +1,22 @@
 let SecureAreaPage = require('./SecureAreaPage');
+let Base = require('./Base');
 
 const USERNAME = '#username';
 const PASSWORD = '#password';
 const BTN_LOGIN = '[type="submit"]';
 
-class LoginPage{
-    inputUsername (username) {
+class LoginPage extends Base{
+    inputUsername(username) {
         $(USERNAME).setValue(username);
         return this;
     }
 
-    inputPassword(password){
+    inputPassword(password) {
         $(PASSWORD).setValue(password);
         return this;
     }
 
-    clickOnLogin(){
+    clickOnLogin() {
         $(BTN_LOGIN).click();
         return SecureAreaPage;
     }
