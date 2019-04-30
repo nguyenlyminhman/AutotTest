@@ -1,6 +1,6 @@
 exports.config = {
     specs:[
-        './test/TestScript/TestLoginType3.js'
+        './test/TestScript/TestLoginActionChain.js'
     ],
 
     host:'localhost',
