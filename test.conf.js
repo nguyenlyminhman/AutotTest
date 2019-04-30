@@ -1,6 +1,6 @@
 exports.config = {
     specs:[
-        './test/Tab.js'
+        './test/TestScript/TestLogin.js'
     ],
 
     host:'localhost',

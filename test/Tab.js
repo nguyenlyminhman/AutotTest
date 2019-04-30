@@ -17,5 +17,5 @@ describe('API Tab Command', ()=>{
         console.log('New title page: ', page_title_2);
         browser.switchTab(allTabIds[0]);
         browser.pause(5000);
-    })
-})
+    });
+});
