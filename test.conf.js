@@ -3,8 +3,13 @@ exports.config = {
     specs:[
         './test/TestScript/TestAssertionChaiLibrary.js',
         //can add more test file in here.
-        './test/TestScript/TestLoginActionChain.js',
+        './test/TestScript/TestLoginActionChain.js'
     ],
+    
+    suites:{
+        group_a:['./test/TestScript/TestAssertionChaiLibrary.js'], // npm test test.conf.js -- --suites=group_a
+        group_b:['./test/TestScript/TestLoginActionChain.js'] // npm test test.conf.js -- --suites=group_b
+    },
 
     host:'localhost',
     port: 9515,
