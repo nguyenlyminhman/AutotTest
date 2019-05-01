@@ -1,4 +1,5 @@
 let SecureAreaPage = require('./SecureAreaPage');
+let expect = require('chai').expect;
 let Base = require('./Base');
 
 const TITLE = 'h2';
@@ -25,6 +26,12 @@ class LoginPage extends Base{
     clickOnLogin() {
         $(BTN_LOGIN).click();
         return SecureAreaPage;
+    }
+
+    verifyLoginTitle(){
+        let actualTitle = this.getTitle();
+        let expectTitle = 'Login Page'; //Error: Login Page@
+        expect(actualTitle).to.equal(expectTitle, 'Error Login Title Page: ');
     }
 }
 

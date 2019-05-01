@@ -1,5 +1,5 @@
 let loginObj = require('../PageObject/LoginActionChain');
-let expect = require('chai').expect;
+
 let Data = require('../TestData/Login');
 
 describe('Page Object API Command', () => {
@@ -11,18 +11,16 @@ describe('Page Object API Command', () => {
         loginObj.openUrl(url)
     })
 
-    it('Login API Fail', () => {
-        let actualTitle = loginObj.getTitle();
-        let expectTitle = 'Login Page'; //Error: Login Page@
-        expect(actualTitle).to.equal(expectTitle, 'Error Login Title Page: ');
+    it('Login Title API', () => {
+        loginObj.verifyLoginTitle();
         browser.pause(3000);
     });
 
-    it('Test case 02', ()=>{
-        console.log('Test case 02');
-    })
-
-    after('Done', ()=>{
-        console.log('After')
+    it('Login API', ()=>{
+        loginObj
+            .inputUsername(Data.correctCredential.username)
+            .inputPassword(Data.correctCredential.password)
+            .clickOnLogin()
+        browser.pause(3000);
     })
 });
