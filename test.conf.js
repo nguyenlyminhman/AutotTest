@@ -1,6 +1,9 @@
 exports.config = {
+    maxInstances:10, //10 faster than 1
     specs:[
-        './test/TestScript/TestAssertionChaiLibrary.js'
+        './test/TestScript/TestAssertionChaiLibrary.js',
+        //can add more test file in here.
+        './test/TestScript/TestLoginActionChain.js',
     ],
 
     host:'localhost',
