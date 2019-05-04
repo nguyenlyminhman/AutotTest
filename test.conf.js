@@ -12,7 +12,7 @@ exports.config = {
     },
 
     host:'localhost',
-    port: 9515,
+    port: 4444,
     path:'/',
 
     capabilities: [{
